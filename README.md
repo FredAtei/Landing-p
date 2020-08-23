@@ -1,4 +1,4 @@
-# Portfolio-a
+# The Akan Name
 <table>
 <tr>
 <td>
@@ -8,11 +8,11 @@ This Website explores the ghananian way of naming Children. The user can add the
 </table>
 
 
-## Demo
-Here is a working live demo : https://fredatei.github.io/Portfolio-a/
+## Deploy
+Here is a working live demo : https://fredatei.github.io/Landing-p/
 
-
-## [Usage](https://fredatei.github.io/Portfolio-a/) 
+## BDD
+  
 
 ### Development
 Want to contribute? Great!
@@ -29,18 +29,18 @@ To fix a bug or enhance an existing module, follow these steps:
 
 ### Bug / Feature Request
 
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/FredAtei/Portfolio-a/issues/new) by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/FredAtei/Landing-p/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/FredAtei/Portfolio-a/issues/new). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/FredAtei/Landing-p/issues/new). Please include sample queries and their corresponding results.
 
 
 ## Built with 
 
 - [WSschools - HTML](https://www.w3schools.com/html/default.asp) - jQuery simplifies HTML document traversing, event handling, animating, and Ajax interactions for rapid web development.
 - [Visual Studio Code](https://code.visualstudio.com/) - Extensive list of components and  Bundled Javascript plugins.
+- [Bootstrap](https://getbootstrap.com/) - Has a vast variety of CSS code that can is used by programmers to simply work load with its many styles waiting to be implimented to the work
 
-
-## [License](https://github.com/FredAtei/Portfolio-a/blob/master/LICENSE.md)
+## License
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
