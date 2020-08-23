@@ -14,8 +14,8 @@ var submission = function () {
   var female = document.getElementById("female")
 
   if (month === "") {
-    document.getElementById('message').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
-    $('#message').addClass("animated shake");
+    document.getElementById('output').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
+    $('#output').addClass("animated shake");
   }
 
   if (year < 0) {
@@ -29,7 +29,6 @@ var submission = function () {
     output.style.color = "white"
     output.innerHTML = "Hey! " + name + " please enter a valid month! "
   }
-
   else if (day < 0 || day > 31) {
     output.style.background = "red"
     output.style.color = "white"
