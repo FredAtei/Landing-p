@@ -35,15 +35,8 @@ a {
   color:white;
 }
 
-.btn {
-  color:rgb(0, 0, 0);
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none;
-  cursor: pointer;
+.btn btn-outline-info btn-lg {
+  color:white;
 }
 
 #output {
