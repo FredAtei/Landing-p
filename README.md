@@ -12,7 +12,19 @@ This Website explores the ghananian way of naming Children. The user can add the
 Here is a working live demo : https://fredatei.github.io/Landing-p/
 
 ## BDD
-  
+1. Where to start in the process
+   As a user, i want the akan page, so that I could be able to get my akan name based on my birthdate.
+
+2. What to test and what not to test
+   The program requires you to put you birthdate strictly in numerals apart from your name.
+   
+3. How much to test in one go
+   You can test it at all times.
+
+4. What to call the tests
+   
+5. How to understand why a test fails
+   If the test fails, it means there has been an invalid input.
 
 ### Development
 Want to contribute? Great!
