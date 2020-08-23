@@ -1,7 +1,28 @@
+body {
+  background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(ghana.jpg) no-repeat center center/cover;
+}
 
 .par {
   color:rgb(0, 0, 0);
   font-family: 'EB Garamond', serif;
   font-size:1.5em;
   line-height: 1.1;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size:4.8em;
+  text-align:center;
+
+}
+
+.gen {
+  color:rgb(0, 0, 0);
+  font-family: 'EB Garamond', serif;
+  font-size:1.5em;
+} 
+
+label {
+  font-size:1.5em;
+  color: white;
 }
