@@ -11,13 +11,6 @@
 </head>
 
 <body>
-  <div class="sidebar">
-    <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
-    <a href="#services"><i class="fa fa-fw fa-wrench"></i> Services</a>
-    <a href="#clients"><i class="fa fa-fw fa-user"></i> Clients</a>
-    <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-  </div>
-
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -28,10 +21,19 @@
             character of
             the person. Middle names have considerably more variety and can refer to their birth order, twin status, or
             an ancestor's middle name.</p>
+
+          <p class="in">Please enter your:
+          <ul>
+            <li>Your Name</li>
+            <li>Year of Birth</li>
+            <li>Month</li>
+            <li>Day</li>
+          </ul>
+          </p>
         </div>
       </div>
 
-      <form>
+      <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
         <div>
           <p id="output"></p>
           <label>Name.</label>
@@ -55,7 +57,6 @@
         <a onclick="submission()" class="btn btn-outline-info btn-lg">Continue</a>
 
         <button type="reset" class="btn btn-outline-info btn-lg">Cancel</button>
-
 
       </form>
 

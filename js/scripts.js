@@ -15,7 +15,7 @@ var submission = function () {
 
   if (month === "") {
     document.getElementById('output').innerHTML = "<div class=\"alert alert-danger\"><button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-hidden=\"true\">x</button><strong>Oh snap!</strong> You Didn't Submit a Valid Date!</div>";
-    $('#output').addClass("animated shake");
+    $('#day').addClass("animated shake");
   }
 
   if (year < 0) {
@@ -23,7 +23,6 @@ var submission = function () {
     output.style.color = "white"
     output.innerHTML = "Hey! " + name + " please enter a valid year! "
   }
-
   else if ((month < 1) || (month > 31)) {
     output.style.background = "red"
     output.style.color = "white"
@@ -43,5 +42,13 @@ var submission = function () {
     output.style.background = "sandybrown"
     output.style.background = "red"
     output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+  }
+
+  function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
   }
 }

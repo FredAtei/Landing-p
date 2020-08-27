@@ -84,3 +84,10 @@ a {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
+
+.in{
+  color:rgb(0, 0, 0);
+  font-family: 'EB Garamond', serif;
+  font-size:1.5em;
+  line-height: 1.1;
+}
